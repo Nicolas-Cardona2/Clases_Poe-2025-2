@@ -2,6 +2,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
         String universidad = "Del valle";
+        System.out.println(universidad);
         Humano humano1 = new Humano();
         humano1.nombre = "Juan Alberto";
         humano1.edad = 19;

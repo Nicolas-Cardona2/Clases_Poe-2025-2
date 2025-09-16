@@ -1,9 +1,9 @@
 public class Humano {
 
-    String nombre;
+    String nombre;//asi dejas los datos vacios para agregarlos en el otro archivo
     byte edad;
 
-    public Humano(String nuevoNombre, byte nuevaEdad){
+    public Humano(String nuevoNombre, byte nuevaEdad){// creas un constructor como este para datos que quieres tener ya listos o implementados en el otro archivo
         nombre = nuevoNombre;
         edad = nuevaEdad;
     }
